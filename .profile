@@ -30,3 +30,9 @@ export PATH=/usr/local/bin:$PATH
 
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" ]]
+
+
+export PATH=/Users/till/Documents/Entwicklung/utilities:$PATH
+
+# setup env for ~/Documents/Entwicklung/utilities/gitignore
+export GITIGNORE_REPO='/Users/till/Documents/Entwicklung/github/gitignore/'
