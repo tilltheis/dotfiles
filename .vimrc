@@ -41,6 +41,10 @@ set incsearch                  " show matches as soon as possible
 set showmatch                  " show matching brackets when typing
 
 " ---------------------------------------------------------------------------
+" Bindings
+set pastetoggle=<F2>           " don't reindent when pasting
+
+" ---------------------------------------------------------------------------
 " MacVIM / GVIM
 if has("gui_running")
     set guioptions=egmrt
