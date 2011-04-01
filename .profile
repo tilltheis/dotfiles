@@ -12,6 +12,9 @@ alias test_ruby_detailed='for f in *_test.rb ; do ruby $f ; done'
 alias chrome='open -a Google\ Chrome --args --enable-speech-input'
 alias vi='vim'
 
+# gihub.com/rupa/z
+source ~/Documents/Entwicklung/github/z/z.sh
+
 traceapp () {
     sudo echo '' > /dev/null && open /Applications/$1.app/ && a=`ps ax | grep $1 | head -n 1` && b=`php -r 'preg_match("/\d+/", $argv[1], $a); echo $a[0];' $a` && sudo opensnoop -p $b | grep '/Users/till/'
 }
