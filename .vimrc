@@ -54,13 +54,11 @@ if has("gui_running")
     set guifont=Menlo:h13
 
     set background=light
-    "colorscheme paintbox
+    colorscheme solarized
 else
     set background=dark
-    "colorscheme molokai
+    colorscheme molokai
 endif
-
-colorscheme solarized
 
 
 " ---------------------------------------------------------------------------
