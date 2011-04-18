@@ -50,11 +50,14 @@ if has("gui_running")
     set guioptions=egmrt
     set guifont=Menlo:h13
 
-    colorscheme paintbox
+    set background=light
+    "colorscheme paintbox
 else
     set background=dark
-    colorscheme molokai
+    "colorscheme molokai
 endif
+
+colorscheme solarized
 
 
 " ---------------------------------------------------------------------------
