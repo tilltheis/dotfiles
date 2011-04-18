@@ -66,27 +66,9 @@ colorscheme solarized
 " ---------------------------------------------------------------------------
 " miscellaneous
 
-"helptags ~/.vim/doc            " update helptags on startup
-                                " this is now done by pathogen.vim
-
 
 "write file as root
 cmap w!! %!sudo tee > /dev/null %
-
-
-
-
-" ---------------------------------------------------------------------------
-" automatically insert closing brace after opening code block
-" tis is now done by delimitMate
-
-"function! CleverBrace()
-"    if strpart( getline('.'), col('.')-2, 1 ) =~ '{'
-"        return "\<CR>}\<ESC>O"
-"    else
-"        return "\<CR>"
-"endfunction
-"inoremap <CR> <C-R>=CleverBrace()<CR>
 
 
 " ---------------------------------------------------------------------------
