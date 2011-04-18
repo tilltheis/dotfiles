@@ -1,4 +1,10 @@
 " ---------------------------------------------------------------------------
+" pathogen
+call pathogen#runtime_append_all_bundles() 
+call pathogen#helptags()
+
+
+" ---------------------------------------------------------------------------
 " operational settings
 set nocompatible                " vim defaults, not vi!
 syntax on                       " syntax on
@@ -134,11 +140,6 @@ vmap <C-c> <Esc>
 " textobj-rubyblock
 runtime macros/matchit.vim
 
-
-" ---------------------------------------------------------------------------
-" pathogen
-call pathogen#runtime_append_all_bundles() 
-call pathogen#helptags()
 
 " ---------------------------------------------------------------------------
 " haskellmode
