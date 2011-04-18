@@ -17,9 +17,6 @@ set enc=utf-8                   " use utf-8 encoding
 " window spacing
 set ruler                       " show the line number on bar
 set number                      " show line number on each line
-if v:version >= 703
-    set relativenumber
-endif
 
 " ---------------------------------------------------------------------------
 " global editing settings
