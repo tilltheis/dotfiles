@@ -131,3 +131,10 @@ runtime macros/matchit.vim
 " ---------------------------------------------------------------------------
 " haskellmode
 let g:haddock_browser = "open"
+
+
+" ---------------------------------------------------------------------------
+" simple language options
+
+" Make files need real tabs
+au FileType make set noexpandtab
