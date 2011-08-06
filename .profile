@@ -13,7 +13,7 @@ alias chrome='open -a Google\ Chrome --args --enable-speech-input'
 alias vi='vim'
 
 # gihub.com/rupa/z
-source ~/Documents/Entwicklung/github/z/z.sh
+source ~/Entwicklung/github/z/z.sh
 
 traceapp () {
     sudo echo '' > /dev/null && open /Applications/$1.app/ && a=`ps ax | grep $1 | head -n 1` && b=`php -r 'preg_match("/\d+/", $argv[1], $a); echo $a[0];' $a` && sudo opensnoop -p $b | grep '/Users/till/'
@@ -31,11 +31,18 @@ export PATH=/Users/till/.cabal/bin:$PATH
 # prefer custom builds over system builds of programs
 export PATH=/usr/local/bin:$PATH
 
+# homebrew
+export PATH=/Users/till/.brew/bin:$PATH
+
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" ]]
 
 
-export PATH=/Users/till/Documents/Entwicklung/utilities:$PATH
+export PATH=/Users/till/Entwicklung/utilities:$PATH
 
 # setup env for ~/Documents/Entwicklung/utilities/gitignore
-export GITIGNORE_REPO='/Users/till/Documents/Entwicklung/github/gitignore/'
+export GITIGNORE_REPO='/Users/till/Entwicklung/github/gitignore/'
+
+
+# rvm needs gcc
+export CC=gcc-4.2
