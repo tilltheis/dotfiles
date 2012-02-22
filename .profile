@@ -36,7 +36,7 @@ export PATH=/usr/local/bin:$PATH
 export PATH=/Users/till/.brew/bin:$PATH
 
 
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" ]]
+# [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" ]]
 
 
 export PATH=/Users/till/Entwicklung/utilities:$PATH
@@ -45,5 +45,5 @@ export PATH=/Users/till/Entwicklung/utilities:$PATH
 export GITIGNORE_REPO='/Users/till/Entwicklung/github/gitignore/'
 
 
-# rvm needs gcc
-export CC=gcc-4.2
+# rbenv
+eval "$(rbenv init -)"
