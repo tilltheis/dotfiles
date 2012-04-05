@@ -32,3 +32,4 @@ get_bundle  vim-scripts   a.vim
 get_bundle  altercation   vim-colors-solarized
 get_bundle  derekwyatt    vim-scala
 get_bundle  tpope         vim-rails
+get_bundle  kien          ctrlp.vim
