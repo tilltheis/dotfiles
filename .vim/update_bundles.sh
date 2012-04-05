@@ -29,6 +29,6 @@ get_bundle  tpope         vim-repeat
 get_bundle  tpope         vim-surround
 get_bundle  ujihisa       camelcasemotion
 get_bundle  vim-scripts   a.vim
-get_bundle  wincent       Command-T
 get_bundle  altercation   vim-colors-solarized
 get_bundle  derekwyatt    vim-scala
+get_bundle  tpope         vim-rails
