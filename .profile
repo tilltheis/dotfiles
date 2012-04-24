@@ -25,6 +25,8 @@ quit () {
     done
 }
 
+# My scripts/programs
+export PATH=/Users/till/bin:$PATH
 
 # Haskell
 export PATH=/Users/till/Library/Haskell/bin:$PATH
