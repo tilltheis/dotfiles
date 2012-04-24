@@ -1,3 +1,4 @@
+set wrap                        " wrap long lines
 set hidden                      " allow editing multiple unsaved buffers
 set autoread                    " watch for file changes by other programs
 set visualbell                  " visual beep
