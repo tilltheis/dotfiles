@@ -1,0 +1,47 @@
+set hidden                      " allow editing multiple unsaved buffers
+set autoread                    " watch for file changes by other programs
+set visualbell                  " visual beep
+set mouse=a                     " enable mouse support
+set undolevels=1000             " number of forgivable mistakes
+set complete=.,w,b,u,U,t,i,d    " do lots of scanning on tab completion
+set viminfo=%100,'100,/100,h,\"500,:100,n~/.viminfo
+
+" theming
+if has("gui_running")
+    set guioptions=egmrt
+    set guifont=Menlo:h13
+
+    set background=light
+    colorscheme solarized
+else
+    set background=dark
+    colorscheme molokai
+endif
+
+" highlight columns which are too long (above 80 characters)
+if v:version >= 703
+    set colorcolumn=80
+    hi ColorColumn guibg=#2d2d2d
+else
+    au BufWinEnter * let w:m2=matchadd('ErrorMsg', '\%>80v.\+', -1)
+endif
+
+" set filetype of *.m to objective-c
+autocmd BufNewFile,BufReadPost *.m set filetype=objc
+
+" indentation rules
+au FileType java,c,cpp,php,objc set softtabstop=4 tabstop=4 shiftwidth=4
+
+" delimitMate
+let delimitMate_expand_cr = 1
+let delimitMate_expand_space = 1
+
+" textobj-rubyblock
+runtime macros/matchit.vim
+
+" haskellmode
+let g:haddock_browser = "open"
+
+" add objc file extensions to a.vim extension list
+let g:alternateExtensions_m = "h"
+let g:alternateExtensions_h = "m," . g:alternateExtensionsDict["h"]
