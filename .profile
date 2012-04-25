@@ -1,6 +1,6 @@
 export EDITOR='vim'
 
-alias ls='ls -F' # add -G option for colors
+alias ls='ls -FG' # add -G option for colors
 alias shutdown_server='ssh root@192.168.1.100 init 0'
 alias jslint='java org.mozilla.javascript.tools.shell.Main ~/.jslint.js'
 alias cd..='cd ..'
