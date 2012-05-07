@@ -18,7 +18,6 @@ get_bundle() {
 get_bundle  Raimondi      delimitMate
 get_bundle  austintaylor  vim-indentobject
 get_bundle  clones        vim-align
-get_bundle  hallettj      jslint.vim
 get_bundle  kana          vim-textobj-user
 get_bundle  lukerandall   haskellmode-vim
 get_bundle  msanders      cocoa.vim
