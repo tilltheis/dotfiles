@@ -25,6 +25,9 @@ quit () {
     done
 }
 
+# disable oh-my-zsh auto updates
+export DISABLE_AUTO_UPDATE="false"
+
 # My scripts/programs
 export PATH=/Users/till/bin:$PATH
 
