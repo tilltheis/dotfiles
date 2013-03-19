@@ -29,7 +29,7 @@ quit () {
 export PATH=/Users/till/bin:$PATH
 
 # Haskell
-export PATH=/Users/till/Library/Haskell/bin:$PATH
+export PATH=/Users/till/Library/Haskell/bin:~/.cabal/bin:$PATH
 
 # prefer custom builds over system builds of programs
 export PATH=/usr/local/bin:$PATH
