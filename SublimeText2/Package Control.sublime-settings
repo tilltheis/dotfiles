@@ -1,0 +1,13 @@
+{
+	"auto_upgrade_last_run": null,
+	"installed_packages":
+	[
+		"Alignment",
+		"Base16 Color Schemes",
+		"LaTeXTools",
+		"Package Control",
+		"Prolog",
+		"SideBarEnhancements",
+		"SublimeLinter"
+	]
+}
