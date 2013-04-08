@@ -27,5 +27,8 @@ export PATH=/Users/till/.brew/bin:$PATH
 export PATH=/Users/till/Entwicklung/utilities:$PATH
 export GITIGNORE_REPO='/Users/till/Entwicklung/github/gitignore/'
 
+# android
+export ANDROID_SDK_ROOT=/usr/local/opt/android-sdk
+
 # rbenv
 # eval "$(rbenv init -)"
