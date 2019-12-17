@@ -1,5 +1,5 @@
 {
-	"color_scheme": "Packages/Base16 Color Schemes/base16-tomorrow.dark.tmTheme",
+	"color_scheme": "Packages/Base16 Color Schemes/Themes/base16-tomorrow-night.tmTheme",
 	"font_size": 12.0,
 	"highlight_line": true,
 	"ignored_packages":
@@ -12,7 +12,7 @@
 	],
 	"scroll_past_end": true,
 	"tab_size": 2,
-	"theme": "Soda Light.sublime-theme",
+	"theme": "Default.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true
 }
