@@ -3,8 +3,11 @@ HISTSIZE=10000
 SAVEHIST=1000
 setopt INC_APPEND_HISTORY_TIME
 
+# enable auto completion
+autoload -Uz compinit && compinit
+
 # setup
-autoload colors; colors;
+autoload -Uz colors && colors;
 setopt prompt_subst
 
 # show git branch/tag, or name-rev if on detached head
