@@ -3,3 +3,11 @@ set multiple-cursors
 set ignorecase
 set smartcase
 set visualbell
+set hlsearch
+set incsearch
+
+" don't change paste buffer when pasting into selection
+xnoremap p "_dP
+
+" dehighlight search results
+map <F9> :nohlsearch<ENTER>
