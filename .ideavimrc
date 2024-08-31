@@ -1,0 +1,5 @@
+set surround
+set multiple-cursors
+set ignorecase
+set smartcase
+set visualbell
